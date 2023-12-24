@@ -1,0 +1,7 @@
+{
+  "name": "crashcourse-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
