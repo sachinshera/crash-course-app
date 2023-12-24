@@ -1,0 +1,105 @@
+<ion-content [fullscreen]="true">
+  <div class="greet">
+    <h1>
+      Hello,
+    </h1>
+    <h2>
+      Welcome to the <br /> Learning App
+    </h2>
+    <ion-searchbar color="medium" animated="true" placeholder="Search "></ion-searchbar>
+  </div>
+
+
+  <swiper-container [loop]="true" class="featured" [pagination]="'.swiper-pagination'">
+    <swiper-slide>
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      </ion-card>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      </ion-card>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      </ion-card>
+    </swiper-slide>
+    <div class="swiper-pagination"></div>
+  </swiper-container>
+
+  <div>
+    <h2>
+      <ion-title>Featured Catrgories</ion-title>
+    </h2>
+    <ion-grid [fixed]="true">
+      <ion-row>
+        <ion-col> <app-courselist></app-courselist></ion-col>
+        <ion-col> <app-courselist></app-courselist></ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col> <app-courselist></app-courselist></ion-col>
+        <ion-col> <app-courselist></app-courselist></ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="Courses">
+
+    <ion-list>
+      <h2>
+        <ion-title>Featured Courses</ion-title>
+      </h2>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+        <div>
+          <h3>
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <ion-label>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis placeat ratione voluptas? Sint,
+            soluta.
+          </ion-label>
+        </div>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+        <div>
+          <h3>
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <ion-label>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis placeat ratione voluptas? Sint,
+            soluta.
+          </ion-label>
+        </div>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+        <div>
+          <h3>
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <ion-label>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quis placeat ratione voluptas? Sint,
+            soluta.
+          </ion-label>
+        </div>
+      </ion-item>
+
+
+    </ion-list>
+  </div>
+</ion-content>
