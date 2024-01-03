@@ -6,18 +6,20 @@ import {
   signInAnonymously,
   signOut
 } from "@angular/fire/auth";
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-
   constructor(
-    private Auth: Auth
+    private Auth: Auth,
+    
   ) { }
 
   ngOnInit() {
+   
   };
 
   login() {
